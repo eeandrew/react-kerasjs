@@ -5,7 +5,6 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   devtool: 'source-map',
   entry: [
-    'babel-polyfill',
     'webpack-dev-server/client?http://localhost:3000',
     'webpack/hot/only-dev-server',
     './src/index'
@@ -35,12 +34,12 @@ module.exports = {
         'style-loader',
         'css-loader',
         {
-          loader: 'postcss-loader',
-          options: {
-            config: path.join(__dirname, 'postcss.config.js')
-          }
+          loader: 'postcss-loader'
         }
       ]
     }]
+  },
+  node: {
+    fs: 'empty'
   }
 };

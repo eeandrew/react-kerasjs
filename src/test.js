@@ -1,6 +1,7 @@
 import React,{
   Component
 } from 'react';
+import KerasJS from 'keras-js'
 
 export default class MainComponent extends Component {
   constructor(props) {
@@ -8,7 +9,7 @@ export default class MainComponent extends Component {
   }
   render() {
     return (
-      <div>HelloWorld</div> 
+      <div>Hello World</div> 
     );
   }
 }
