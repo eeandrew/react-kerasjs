@@ -4,6 +4,9 @@
     "es2017",
     "stage-2"
   ],
+  "plugins": [
+    ["babel-plugin-inline-import", { "extensions": [".glsl"] }]
+  ],
   "env": {
     "development": {
       "presets": ["react-hmre"]

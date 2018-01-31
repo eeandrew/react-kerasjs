@@ -17,6 +17,7 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-plugin-inline-import": "^2.0.6",
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-es2017": "^6.24.1",
@@ -43,6 +44,20 @@
     "ndarray": "^1.0.18",
     "ndarray-ops": "^1.2.2",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "axios": "^0.17.1",
+    "bluebird": "^3.5.1",
+    "cwise": "^1.0.10",
+    "eventemitter3": "^3.0.0",
+    "ndarray-blas-level2": "^1.1.0",
+    "ndarray-concat-rows": "^1.0.1",
+    "ndarray-gemm": "^1.0.0",
+    "ndarray-resample": "^1.0.1",
+    "ndarray-squeeze": "^1.0.2",
+    "ndarray-tile": "^1.0.3",
+    "ndarray-unpack": "^1.0.0",
+    "ndarray-unsqueeze": "^1.0.3",
+    "performance-now": "^2.1.0",
+    "protobufjs": "^6.8.3"
   }
 }

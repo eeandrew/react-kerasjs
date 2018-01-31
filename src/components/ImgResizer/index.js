@@ -4,7 +4,7 @@ import React,{
 import './index.css'
 import PropTypes from 'prop-types'
 import ImageDataUtils from '../../utils/ImageDataUtils'
-import KerasJS from 'keras-js'
+import KerasJS from '../../keras/index'
 
 export default class ImgResizer extends Component {
   constructor(props) {
